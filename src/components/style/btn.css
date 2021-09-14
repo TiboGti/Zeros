@@ -1,0 +1,51 @@
+@import url('../style/bass.css');
+
+.btn{
+    width: 152px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+
+.btn--primary{
+    height: 50px;
+    color: var(--color-white);
+    background: var(--primary-blue);
+    border-radius: 10px;
+    border: none;
+    line-height: 22px;
+}
+
+.btn--secundary{
+    height: 50px;
+    color: var(--primary-blue);
+    background:none;
+    border-radius: 12px;
+    border: 2px solid var(--primary-blue);
+    line-height: 22px;
+}
+
+.btn--card{
+    height: 39.56px;
+    color: var(--color-white);
+    background: var(--primary-blue);
+    border-radius: 10px;
+    border: none;
+    line-height: 20px;
+}
+
+.btn--big{
+    width: 285px;
+    height: 50px;
+    color: var(--color-white);
+    background: var(--primary-blue);
+    border-radius: 12px;
+    border: none;
+    line-height: 22px;
+}
