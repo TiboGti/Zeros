@@ -4,18 +4,29 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 100vh;
+  height: auto;
+  
 
+}
+.list__container{
+  width: 90%;
+  
 }
 
 .list {
-  width: 95%;
-  min-height: 250px;
+  width: 100%;
+  min-height: 270px;
   display: flex;
   justify-content: center;
   padding-block: 2rem;
 }
+.listbutton{
+  display: block;
+  text-align: center;
+  
+}
 
 .list > button{
-  margin: 1rem;
+  margin: 1.2rem;
+  
 }

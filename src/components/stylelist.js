@@ -8,7 +8,7 @@ import Footer from './footer'
 
 export const stylelist = () => {
     return (
-        <div>
+        <div className="list__container">
             <section className="list">
                 <Navbar/>
             </section>
