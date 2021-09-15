@@ -10,11 +10,9 @@ const cards = () => {
             {
                 CardData.map(CardDatab => (
                     <div className="col-md-4" key={CardDatab.id}>
-            <Card title={CardDatab.title} image={CardDatab.img} text1={CardDatab.text1} text2={CardDatab.text2} btntype={CardDatab.btntype} btncontent={CardDatab.btncontent} />
+            <Card title={CardDatab.title} image={CardDatab.img} text1={CardDatab.text1} text2={CardDatab.text2} btntype={CardDatab.btn_type} btncontent={CardDatab.btn_content} />
             </div>
-
                 ))
-
             } 
         </div>
     )

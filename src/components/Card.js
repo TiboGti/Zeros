@@ -29,7 +29,7 @@ const Card = (props) => {
                 </p>
             </div>
             <div className="card--footer">
-            <Btn type="btn btn--card" content="Visualizador"/>
+            <Btn type={btn_type} content={btn_content} />
             </div>
         </div>
     )

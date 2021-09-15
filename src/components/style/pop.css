@@ -1,0 +1,83 @@
+@import url('./bass.css');
+
+.md{
+    display: flex;
+    justify-content: center;
+}
+
+.cardpop{
+    position: relative;
+    width: 325px;
+    height: 170px;
+    background-color: var(--secundary-grey);
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.cardpop__header{
+    width: 100%;
+    height: 85px;
+    background-color: var(--color-grey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem ;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cardpop__header--title{
+    padding-inline: 1rem 0.5rem;
+    text-align: start;
+}
+
+.cardpop__header--title h3{
+    color: var(--primary-blue);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.cardpop__header--title p{
+    color: var(--color-white);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.cardpop__footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:85px;
+}
+
+.cardpop__footer p{
+    color: var(--primary-blue);
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;  
+}
+
+.cardpop button{
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+    width: 36px;
+    height: 36px;
+    background: var(--primary-blue);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.cardpop button img{
+    width: 20px;
+}
