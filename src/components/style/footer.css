@@ -1,0 +1,60 @@
+@import url('./bass.css');
+
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 375px;
+    height: 372px;
+    padding: 1rem;
+    background: var(--secundary-grey);   
+}
+
+.footer__container{
+    width: 95%;
+    height: auto;
+    margin-block: 1.2rem;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.footer__icons{
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 10%;    
+}
+
+.footer__icons img{
+    cursor: pointer;
+}
+
+.footer__info{
+margin-block: 1rem;
+}
+
+.footer__info p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.footer__info p:nth-child(5){
+    font-weight: 700;
+    color: var(--color-grey);
+    cursor:initial;
+}
+
+.footer__descrip{
+    margin-block: 2rem;
+    height: auto;
+}
+
+.footer__descrip p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}

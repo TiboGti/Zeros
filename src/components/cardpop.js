@@ -7,6 +7,9 @@ const cardpop = (props) => {
     const titlepop = props.title;
     const subtitlepop = props.subtitle;
     const textfooter = props.textfooter;
+    const text1 = props.text1;
+    const text2 = props.text2;
+    const type = props.type;
 
     return (
         <div className="cardpop">
@@ -23,8 +26,13 @@ const cardpop = (props) => {
                         </p>
                     </div>
             </div>
-            <div className="cardpop__body">
-                
+            <div className="cardpop__body ">
+                <p>
+                    {text1}
+                </p>
+                <p>
+                    {text2}
+                </p>
             </div>
             <div className="cardpop__footer">
                 <p>

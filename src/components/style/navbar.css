@@ -1,0 +1,46 @@
+@import url('./bass.css');
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height: 57px;
+    background: var(--secundary-grey);   
+    margin: 2rem;
+}
+
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.navbar__nav{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__nav button{
+    height: auto;
+    width: auto;
+    background: none;
+    border: none;
+}
+
+.navbar__nav button img{
+width: 29px;
+}
+
+.sep{
+    height: 15px;
+    border-inline-end: solid 1px white;
+}
+
+.navbar__nav > img{
+    width: 38px;
+    
+    
+}

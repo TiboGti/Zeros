@@ -10,14 +10,12 @@
 
 .list {
   width: 95%;
-  min-height: 300px;
+  min-height: 250px;
   display: flex;
   justify-content: center;
-  
-  
+  padding-block: 2rem;
 }
 
-.list .listbutton{
-  
-  flex-direction: column;
+.list > button{
+  margin: 1rem;
 }
