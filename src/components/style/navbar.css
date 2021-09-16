@@ -16,6 +16,10 @@
     width: 80%;
 }
 
+.navbar__logo img{
+    width: 140px;
+}
+
 .navbar__nav{
     width: 100px;
     display: flex;

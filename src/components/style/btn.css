@@ -50,3 +50,14 @@
     border: none;
     line-height: 22px;
 }
+
+.btn--arrow{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border:none;
+    background: var(--primary-blue);
+    color: var(--color-black);
+    text-align: center;
+    font-size: 2.1rem;
+}

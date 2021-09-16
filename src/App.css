@@ -5,28 +5,5 @@
   justify-content: center;
   width: 100%;
   height: auto;
-  
-
-}
-.list__container{
-  width: 90%;
-  
-}
-
-.list {
-  width: 100%;
-  min-height: 270px;
-  display: flex;
-  justify-content: center;
-  padding-block: 2rem;
-}
-.listbutton{
-  display: block;
-  text-align: center;
-  
-}
-
-.list > button{
-  margin: 1.2rem;
-  
+  background: var(--color-black);
 }
