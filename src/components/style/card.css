@@ -1,12 +1,36 @@
 @import url('../style/bass.css');
+
+.card__container--slide{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.4rem;
+    width: 100%;
+    height: 600px;
+    overflow-x: scroll ;
+    overscroll-behavior-x: contain ;
+    scroll-snap-type: x proximity;
+    
+}
+.card__container--slide::-webkit-scrollbar{
+    width: 0px;
+}
+.card__map{
+    scroll-snap-align: center;
+    width: 90%;
+    min-width: 275px;
+    height: auto;
+}
 .card{
-    width: 276px;
-    height: 534px;
+    position: relative;
+    min-width: 275px;
+    max-width: 280px;
+    min-height: 534px;
     background: var(--secundary-grey);
-    margin: 1rem;
+    margin: 0.5rem;
     border: none;
     border-radius: 10px;
     box-sizing: border-box;
+    
 }
 .card--body{
     padding-block: 0.5rem;
@@ -36,6 +60,24 @@
 }
 
 .card--footer{
+    position:absolute;
+    bottom: 10px;
+    width: 100%;
     text-align: center;
+    align-items: flex-end;
 
+}
+
+@media screen and (min-width:1100px) {
+    .card__container--slide{
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        width: 100%;
+        height: 600px;
+        overflow-x: none ;
+        overscroll-behavior-x: initial;
+        scroll-snap-type:initial;
+        
+    }
 }

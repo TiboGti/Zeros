@@ -3,21 +3,23 @@
 .navbar{
     display: flex;
     justify-content: center;
-    width: 450px;
+    width: 100%;
+    min-width: 300px;
     height: 57px;
     background: var(--secundary-grey);   
-    margin: 2rem;
+    
 }
 
 .nav__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 85%;
 }
 
 .navbar__logo img{
     width: 140px;
+    cursor: pointer;
 }
 
 .navbar__nav{
@@ -36,6 +38,7 @@
 
 .navbar__nav button img{
 width: 29px;
+cursor: pointer;
 }
 
 .sep{
@@ -47,4 +50,59 @@ width: 29px;
     width: 38px;
     
     
+}
+
+.navbar__content{
+    display: none;
+}
+
+
+@media screen and (min-width:1180px) {
+    
+    .navbar__nav{
+        display: none;
+    }
+
+    .navbar__content{
+        display: flex;
+    }
+
+    .nav__container{
+        width: 95%;
+    }
+
+    .navbar__content ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+
+    .navbar__content .nav--item{
+        margin-inline-end: 0.8rem;
+        color: var(--color-white);
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .navbar__content .nav--item:hover{
+        border-block-end: 2px solid var(--primary-blue) ;
+    }
+
+}
+
+@media screen and (min-width:1570px) {
+    .nav__container{
+        width: 90%;
+    }
+}
+
+
+@media screen and (min-width:1870px) {
+    .nav__container{
+        width: 87%;
+    }
 }

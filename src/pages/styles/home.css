@@ -1,0 +1,69 @@
+@import url('../../components/style/bass.css');
+
+.home{
+    width: 100%;
+    height: 100%;
+    background: var(--color-black);
+    
+}
+.home>main{
+    display: flex;
+    justify-content: center;
+}
+
+.main__container{
+    width: 97%;
+    min-width: 320px;
+}
+
+main .main__sec--title{
+    color: var(--color-white);
+    margin-block: 1rem;
+}
+main .main__banner{
+    margin-block: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.main__cardpop--mobile{
+ display: block;
+}
+
+.main__cardpop--desktop{
+    display: none;
+}
+
+@media screen and (min-width:1000px) {
+
+    .main__cardpop--mobile{
+        display: none;
+}
+    .main__cardpop--desktop{
+        display: block;
+}
+
+}
+
+@media screen and (min-width:1300px) {
+    .main__container{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:1500px) {
+    .main__container{
+        width: 82%;
+    }
+}
+@media screen and (min-width:1800px) {
+    .main__container{
+        width: 75%;
+    }
+}
+@media screen and (min-width:2000px) {
+    .main__container{
+        width: 60%;
+        
+    }
+}

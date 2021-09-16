@@ -17,20 +17,20 @@
 }
 
 .list__container{
-    width: 90%;
+    width: 95%;
     
 }
 
 .list {
     position: relative;
     width: 100%;
-    min-height: 270px;
+    min-height: 450px;
     display: flex;
     justify-content: center;
     padding-block: 2rem;
     border-block-end: 4px dashed var(--color-white);
     border-radius: 15px;
-    margin: 1rem;
+    margin: 1rem auto;
 }
 
 .listbutton{

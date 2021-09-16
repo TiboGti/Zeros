@@ -5,10 +5,10 @@ import CardpopActive from './CardpopActive';
 
 const CardspopActive = () => {
     return ( 
-        <div className="container__pop">
+        <div className="container__pop--active">
             {
                 PopData.map(popdatab => (
-                    <div className="md" key={popdatab.id} >
+                    <div className="mda" key={popdatab.id} >
                         <CardpopActive image={popdatab.img} title={popdatab.title} subtitle={popdatab.subtitle} textfooter={popdatab.footer} text1={popdatab.text1} text2={popdatab.text2} />
                     </div>
 

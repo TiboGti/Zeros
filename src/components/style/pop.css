@@ -3,6 +3,34 @@
 .md{
     display: flex;
     justify-content: center;
+
+    
+}
+
+.mda{
+    display: flex;
+    justify-content: center;
+    width: 330px;
+    min-height: 525px;
+}
+
+.container__pop--active{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    width: 100%;
+    height: 521px;
+    
+    
+}
+
+.container__pop--active::-webkit-scrollbar{
+    width: 0;
+}
+
+.container__pop{
+    width: 100%;
+    margin: 0 auto;
 }
 
 .cardpop{
@@ -12,15 +40,17 @@
     background-color: var(--secundary-grey);
     border: none;
     border-radius: 10px;
-    
+    margin: 1rem;    
 }
 
 .cardpopA{
     width: 325px;
-    height: 521;
+    min-height: 521px;
     background-color: var(--secundary-grey);
     border: none;
     border-radius: 10px;
+    margin: 1rem;  
+    scroll-snap-align: center;
     
 }
 
@@ -109,4 +139,13 @@
 
 .active{
     display: block;
+}
+
+@media screen and (min-width:1000px) {
+    
+    .container__pop--active{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }

@@ -17,6 +17,16 @@ const Navbar = () => {
                         <img src={menu} alt="" />
                     </button>
                 </div>
+                <div className="navbar__content">
+                    <ul>
+                        <li className="nav--item">CASH GAMES</li>
+                        <li className="nav--item">TORNEOS</li>
+                        <li className="nav--item">HERRAMIENTA PREFLOP</li>
+                        <li className="nav--item">GLOSARIO</li>
+                        <li className="nav--item">SALAS DE POKER</li>
+                        <li className="nav--item">BTN</li>
+                    </ul>
+                </div>
             </div>
         </nav>
     )

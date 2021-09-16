@@ -3,7 +3,7 @@
 .footer{
     display: flex;
     justify-content: center;
-    width: 375px;
+    width: 100%;
     height: 372px;
     padding: 1rem;
     background: var(--secundary-grey);   
@@ -24,6 +24,7 @@
 }
 
 .footer__icons img{
+    width: 35px;
     cursor: pointer;
 }
 
@@ -57,4 +58,47 @@ margin-block: 1rem;
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
+}
+
+@media screen and (min-width:700px) {
+    
+    .footer__container{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    
+    .footer{
+        height: 253px;
+    }
+
+    .footer__container{
+        width: 90%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .footer__container .footer__icons{
+        align-items: center;
+        grid-area: 1/2/2/3;
+    }
+
+    .footer__info{
+        text-align: start;
+        grid-area: 1/1/3/2;
+    }
+
+    .footer__descrip{
+        text-align: end;
+        grid-area: 2/2/3/3;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .footer__container{
+        width: 87%;
+    }
 }
