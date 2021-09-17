@@ -24,7 +24,7 @@ const Navbar = () => {
                         <li className="nav--item">HERRAMIENTA PREFLOP</li>
                         <li className="nav--item">GLOSARIO</li>
                         <li className="nav--item">SALAS DE POKER</li>
-                        <li className="nav--item">BTN</li>
+                        <li className="nav--item-login"><span></span>LOGIN</li>
                     </ul>
                 </div>
             </div>

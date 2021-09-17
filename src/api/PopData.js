@@ -21,7 +21,7 @@ export const PopData = [
         subtitle: 'Top 1 mundial de Cash games en 2017',
         text1: '“Conozco a Elías desde hace muchos años. Él fue quien me echó un cable cuando hice la transición del poker en vivo al poker online… y lo resultados fueron espectaculares. Un despegue en mi gráfica brutal.',
         text2: 'El material será de muy buena calidad, y tendrá muchas horas de trabajo con total seguridad.”',
-        footer: 'Más que recomendable'
+        footer: 'Muy recomendable si quieres mejorar como jugador de poker y subir niveles.'
     },
     {
         id: 3,
@@ -30,6 +30,6 @@ export const PopData = [
         subtitle: 'Jugador profesional de poker',
         text1: '“Conozco a Elías desde hace muchos años. Él fue quien me echó un cable cuando hice la transición del poker en vivo al poker online… y lo resultados fueron espectaculares. Un despegue en mi gráfica brutal.',
         text2: 'Es difícil encontrar en alguien lo que se puede encontrar en Zeros, un gran jugador al que le gusta más estudiar y enseñar que jugar.”',
-        footer: 'Más que recomendable'
+        footer: 'Un auténtico regalo para quien quiera aprender a jugar a poker DE VERDAD.'
     }
 ]

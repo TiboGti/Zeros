@@ -11,7 +11,7 @@
     text-align: center;
 }
 
-.banner h1{
+.banner h2{
     font-size: 22px;
     font-weight: 800;
     font-style: normal;
@@ -20,7 +20,38 @@
 }
 
 
-.banner h2{
+.banner h3{
     font-size: 22px;
     font-weight: 200;
+}
+
+.banner .btn--arrow{
+    display: none;
+}
+
+@media screen and (min-width:980px) {
+    .banner{
+        background: none;
+        width: 100%;
+    }
+    .banner h2{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 49px;
+    }
+
+    .banner h3{
+        display: none;
+    }
+
+    .banner .btn--big{
+        display: none;
+    }
+
+    .banner .btn--arrow{
+        display: initial;
+    }
+
 }

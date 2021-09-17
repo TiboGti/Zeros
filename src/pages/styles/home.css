@@ -27,7 +27,7 @@ main .main__banner{
 }
 
 .main__cardpop--mobile{
- display: block;
+    display: block;
 }
 
 .main__cardpop--desktop{
@@ -63,7 +63,7 @@ main .main__banner{
 }
 @media screen and (min-width:2000px) {
     .main__container{
-        width: 60%;
+        width: 65%;
         
     }
 }
