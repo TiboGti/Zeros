@@ -119,12 +119,8 @@ cursor: pointer;
 @media screen and (min-width:1570px) {
     .nav__container{
         width: 90%;
+        max-width: 1600px;
     }
 }
 
 
-@media screen and (min-width:1870px) {
-    .nav__container{
-        width: 87%;
-    }
-}
